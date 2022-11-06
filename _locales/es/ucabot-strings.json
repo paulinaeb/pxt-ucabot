@@ -16,6 +16,7 @@
   "ucaBot.toPoint|block": "Ir al punto x:%px y:%py",
   "ucaBot.wander|block": "Deambular",
   "ucaBot.stop|block": "Parar lo que estoy haciendo",
+  "ucaBot.stopcar|block": "Detener motores",
   "ucaBot.dirTo|block": "Dirección al %a",
   "ucaBot.takeObj|block": "Tomar objeto",
   "ucaBot.goHome|block": "Ir a casa",
@@ -28,6 +29,7 @@
   "ucaBot.onColl|block": "Al colisionar",
   "ucaBot.avoidColl|block": "Esquivar colisión",
   "ucaBot.drop|block": "Dejar carga",
+  "ucaBot.ir|block": "Fuera de la arena",
   "ucaBot|block": "ucaBot",
   "{id:category}ucaBot": "ucaBot"
 }

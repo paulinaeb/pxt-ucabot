@@ -16,6 +16,7 @@
   "ucaBot.toPoint|block": "Go to point x:%px y:%py",
   "ucaBot.wander|block": "Wander around",
   "ucaBot.stop|block": "Stop current task(s)",
+  "ucaBot.stopcar|block": "Stop car now",
   "ucaBot.dirTo|block": "Direction to %a",
   "ucaBot.takeObj|block": "Take object",
   "ucaBot.goHome|block": "Go home",
@@ -28,6 +29,7 @@
   "ucaBot.onColl|block": "On collision received",
   "ucaBot.avoidColl|block": "Avoid collision",
   "ucaBot.drop|block": "Drop load",
+  "ucaBot.ir|block": "Out of sand",
   "ucaBot|block": "ucaBot",
   "{id:category}ucaBot": "ucaBot"
 }

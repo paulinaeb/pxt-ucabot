@@ -596,10 +596,14 @@ namespace ucaBot {
       pins.i2cWriteBuffer(ADDR, buf);
     }
   }
-  function stopcar() {
+  //% weight=100 
+  //% block="Stop car now"
+  export function stopcar() {
     motors(0, 0);
   }
-  function ir(): boolean {
+  //% weight=105 
+  //% block="Out of sand"
+  export function ir(): boolean {
     pins.setPull(DigitalPin.P13, PinPullMode.PullNone);
     pins.setPull(DigitalPin.P14, PinPullMode.PullNone);
     let left = pins.digitalReadPin(DigitalPin.P13);
