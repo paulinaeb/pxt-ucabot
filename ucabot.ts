@@ -1,7 +1,7 @@
 /**
  * Functions for ucaBot
  */
-//% weight=5 color=#6AF195  icon="\uf207"
+//% weight=5 color=#2589D8 icon="\uf207"
 namespace ucaBot {
   const ADDR = 0x10;
   let f: string= null;
