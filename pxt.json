@@ -1,0 +1,35 @@
+{
+    "name": "ucabot",
+    "version": "6.14.21",
+    "description": "Ucabot using on cuteBot, for micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "README.md",
+        "ucabot.ts",
+        "IR.cpp",
+        "shims.d.ts",
+        "enums.d.ts",
+        "_locales/es/ucabot-strings.json",
+        "_locales/es/ucabot-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "disablesVariants": [
+        "mbdal"
+    ]
+}
